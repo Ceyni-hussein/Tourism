@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  header.hero-section {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .register-btn {
+    background-color: orange;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+  }
+  .background{
+    background-image: linear-gradient(to bottom, rgb(0,0,0,0.5), rgb(0,0,0,0.5)), url(assets/image\ 1.png);
+    /* background-repeat: no-repeat;
+    background-position:center ; */
+    background-size: cover;
+    width: 100p%;
+    height: 500px;
+  }
+  
+  .hero-content {
+    text-align: center;
+    margin-top: -100px;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+  }
+  
+  .search-box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .search-box input,
+  .search-box button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.popular-destinations {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+        
